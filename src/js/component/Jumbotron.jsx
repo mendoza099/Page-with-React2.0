@@ -3,7 +3,15 @@ import React from "react";
 const Jumbotron = () => {
 	return (
 		<>
-			<div className="jumbotron btn btn-secondary">
+			<div
+				className="jumbotron btn btn-secondary "
+				style={{
+					marginLeft: "160px",
+
+					marginTop: "28px",
+					padding: "50px",
+					width: "1200px",
+				}}>
 				<h1 className="display-4">Hello, world!</h1>
 				<p className="lead">
 					This is a simple hero unit, a simple jumbotron-style
